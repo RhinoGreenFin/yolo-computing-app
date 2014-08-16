@@ -1,31 +1,462 @@
 ﻿@{
-    ViewBag.Title = "Home Page";
 }
+<!-- About Section
+================================================== -->
+<section id="about">
 
-<div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="http://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
-</div>
+    <div class="row">
 
-<div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+        <div class="three columns">
+
+            <img class="profile-pic" src="images/profilepic.jpg" alt="" />
+
+        </div>
+
+        <div class="nine columns main-col">
+
+            <h2>About Me</h2>
+
+            <p>
+                I am a full stack developer at <a href="http://www.flipswitch.com">FlipSwitch</a>.
+                Before going into software developement I worked as a Systems Administrator at Hoehn Motors in San Diego.
+                I studied for my Bachelor of Science in Computer Science at night and weekends.
+                I am currently working on a couple web projects that will be soon be available in my portfolio below.
+                When I am not coding, I enjoy hiking, fishing and getting outdoors.  
+
+            </p>
+
+            <div class="row">
+
+                <div class="columns contact-details">
+
+                    <h2>Contact Details</h2>
+                    <p class="address">
+                        <span>Aaron Purtill</span><br>
+                        <span>
+                            Currently Phoenix, AZ<br>
+                            Relocating to Seattle, WA
+                        </span><br>
+                        <span>(480)489-9438</span><br>
+                        <span>aaronpurtill@gmail.com</span>
+                    </p>
+
+                </div>
+
+                <div class="columns download">
+                    <p>
+                        <a href="~/files/APresume.pdf" target="_blank" class="button"><i class="fa fa-download"></i>Download Resume</a>
+                    </p>
+                </div>
+
+            </div> <!-- end row -->
+
+        </div> <!-- end .main-col -->
+
     </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+
+</section> <!-- About Section End-->
+<!-- Resume Section
+================================================== -->
+<section id="resume">
+
+    <!-- Education
+    ----------------------------------------------- -->
+    <div class="row education">
+
+        <div class="three columns header-col">
+            <h1><span>Education</span></h1>
+        </div>
+
+        <div class="nine columns main-col">
+
+            <div class="row item">
+
+                <div class="twelve columns">
+
+                    <h3>National University</h3>
+                    <p class="info">Bachelor of Science in Computer Science <span>&bull;</span> <em class="date">January 2011</em></p>
+
+                    <p>
+                        <b>University Courses:</b>
+                        <ul>
+                            <li>Data Structures & Algorithms, OOD & Analysis </li>
+                            <li>Programming C++, Advanced Java Programming</li>
+                            <li>Database Mgmt. Systems, Wireless Appl. Development</li>
+                            <li>OS Theory & Design, Computer Architecture</li>
+                        </ul>
+
+                    </p>
+
+                </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+                <div class="twelve columns">
+
+                    <h3>MicroSkills</h3>
+                    <p class="info">Microsoft IT Certifications <span>&bull;</span> <em class="date">2005</em></p>
+
+                    <p>
+                        <b>IT Certifications:</b>
+                        <ul>
+                            <li>MCSE, MCSA, MCDST, MCP</li>
+                            <li>N+, A+, CIW</li>
+                        </ul>
+                    </p>
+                </div>
+
+            </div> <!-- item end -->
+
+        </div> <!-- main-col end -->
+
+    </div> <!-- End Education -->
+    <!-- Work
+    ----------------------------------------------- -->
+    <div class="row work">
+
+        <div class="three columns header-col">
+            <h1><span>Work</span></h1>
+        </div>
+
+        <div class="nine columns main-col">
+
+            <div class="row item">
+                <div class="twelve columns">
+                    <h3><a href="http://www.flipswitch.com">FlipSwitch</a></h3>
+                    <p class="info">Full Stack Developer <span>&bull;</span> <em class="date">October 2010 - Present</em></p>
+
+                    <p>
+                        + Developing cutting edge technologies that provide a unique and engaging approach to managing the lifecycle of students, faculty and staff through the entire education process.
+                    </p>
+                    <p>
+                        + Instrumental member of development team building and implementing innovative System Information System (SIS); attendance management, student workbook export, search functionality, group projects, gradebook, new features, and enhancements.
+                    </p>
+                    <p>
+                        + Designed and developed with team member’s attendance modules, messaging, student community, optimization, enhancements, and student group projects for Parent Student Portal (PSP).
+                    </p>
+                    <p>
+                        + Create SQL database schema, stored procedures, and table designs for select features.
+                        Demonstrated ability to excel in team-oriented and independent environments.
+                        Heavily focused on designing optimized services and front end development for end users.
+                    </p>
+                </div>
+            </div> <!-- item end -->
+
+            <div class="row item">
+                <div class="twelve columns">
+                    <h3><a href="http://www.lrlo.com">LRLO</a></h3>
+                    <p class="info">Junior Software Developer <span>&bull;</span> <em class="date">January 2010 - May 2010</em></p>
+
+                    <p>
+                        + C# development of Internal apps for employees on day to day tasks like document searching, messaging, data manipulation input/output, time sheet management.
+                        Developed a time card desktop application for employees.
+                        Plan, design and implement SQL database objects, such as view, store procedures, queries.
+                        SSIS package design, utilization of ETL tools and discovering patterns.
+
+                    </p>
+                </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+                <div class="twelve columns">
+                    <h3><a href="http://http://www.hoehnmotors.com/">Hoehn Motors</a></h3>
+                    <p class="info">Systems/Network Administrator <span>&bull;</span> <em class="date">July 2006 - January 2010</em></p>
+
+                    <p>
+                        + Contributed to server migration coordination; communicated scheduled downtimes and presented information to stakeholders.
+                    </p>
+                    <p>
+                        + Migrated and installed Active Directory from ad hoc to a network for 400+ workstations at nine locations.
+                    </p>
+                    <p>
+                        + Spearheaded development and implementation of Intranet site allowing users to submit trouble tickets.
+                    </p>
+                    <p>
+                        + Collaborated with team to streamline IT operations, increase productivity, and improve uptime.
+                    </p>
+                </div>
+            </div> <!-- item end -->
+
+        </div> <!-- main-col end -->
+
+    </div> <!-- End Work -->
+    <!-- Skills
+    ----------------------------------------------- -->
+    <div class="row skill">
+
+        <div class="three columns header-col">
+            <h1><span>Skills</span></h1>
+        </div>
+
+        <div class="nine columns main-col">
+
+            <p>
+                I think my skills are sharp. But I know there is always going to be someone who is much smarter.
+                I always enjoy learning from someone who is wiser than me. I enjoy working in a collaborative environment with like minded team members.
+            </p>
+
+            <div class="bars">
+
+                <ul class="skills">
+                    <li><span class="bar-expand csharp"></span><em>C#</em></li>
+                    <li><span class="bar-expand knockout"></span><em>Knockout</em></li>
+                    <li><span class="bar-expand javascript"></span><em>JavaScript</em></li>
+                    <li><span class="bar-expand css"></span><em>CSS</em></li>
+                    <li><span class="bar-expand html5"></span><em>HTML5</em></li>
+                    <li><span class="bar-expand jquery"></span><em>jQuery</em></li>
+                    <li><span class="bar-expand sql"></span><em>SQL</em></li>
+                </ul>
+
+            </div><!-- end skill-bars -->
+
+        </div> <!-- main-col end -->
+
+    </div> <!-- End skills -->
+
+</section> <!-- Resume Section End-->
+<!-- Portfolio Section
+================================================== -->
+<section id="portfolio">
+
+    <div class="row">
+
+        <div class="twelve columns collapsed">
+
+            <h1>Check Out Some of My Works.</h1>
+
+            <!-- portfolio-wrapper -->
+            <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+
+                <div class="columns portfolio-item">
+                    <div class="item-wrap">
+
+                        <a href="#modal-01" title="">
+                            <img alt="" src="images/portfolio/wackyBirds/wackyBirdslogo.jpg">
+                            <div class="overlay">
+                                <div class="portfolio-item-meta">
+                                    <h5>IOS</h5>
+                                    <p>Developer, Objective-C, XCode</p>
+                                </div>
+                            </div>
+                            <div class="link-icon"><i class="icon-plus"></i></div>
+                        </a>
+                    </div>
+                </div> <!-- item end -->
+
+                @*<div class="columns portfolio-item">
+                    <div class="item-wrap">
+
+                        <a href="#modal-02" title="">
+                            <img alt="" src="images/portfolio/console.jpg">
+                            <div class="overlay">
+                                <div class="portfolio-item-meta">
+                                    <h5>Console</h5>
+                                    <p>Web Development</p>
+                                </div>
+                            </div>
+                            <div class="link-icon"><i class="icon-plus"></i></div>
+                        </a>
+
+                    </div>
+                </div> <!-- item end -->
+
+                <div class="columns portfolio-item">
+                    <div class="item-wrap">
+
+                        <a href="#modal-03" title="">
+                            <img alt="" src="images/portfolio/judah.jpg">
+                            <div class="overlay">
+                                <div class="portfolio-item-meta">
+                                    <h5>Judah</h5>
+                                    <p>Webdesign</p>
+                                </div>
+                            </div>
+                            <div class="link-icon"><i class="icon-plus"></i></div>
+                        </a>
+
+                    </div>
+                </div> <!-- item end -->*@
+                         
+
+            </div> <!-- portfolio-wrapper end -->
+
+        </div> <!-- twelve columns end -->
+        <!-- Modal Popup
+         --------------------------------------------------------------- -->
+
+        <div id="modal-01" class="popup-modal mfp-hide">
+
+            <img class="scale-with-grid" src="images/portfolio/wackyBirds/Duck.jpg" alt="" />
+
+            <div class="description-box">
+                <h4>Wacky Birds</h4>
+                <p>Wacky Birds offers 25 challenging wacka-bird levels. Each level increasing in difficulty. You must be fast and precise to earn points to complete the level but be cautious enough not to use up all your lives.</p>
+                <span class="categories"><i class="fa fa-tag"></i>Developer, Magic</span>
+            </div>
+
+            <div class="link-box">
+                <a href="http://www.zlandgames.com">Details</a>
+                <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+        </div><!-- modal-01 End -->
+
+        @*<div id="modal-02" class="popup-modal mfp-hide">
+
+            <img class="scale-with-grid" src="images/portfolio/modals/m-console.jpg" alt="" />
+
+            <div class="description-box">
+                <h4>Console</h4>
+                <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+                <span class="categories"><i class="fa fa-tag"></i>Branding, Web Development</span>
+            </div>
+
+            <div class="link-box">
+                <a href="http://www.behance.net">Details</a>
+                <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+        </div><!-- modal-02 End -->
+
+        <div id="modal-03" class="popup-modal mfp-hide">
+
+            <img class="scale-with-grid" src="images/portfolio/modals/m-judah.jpg" alt="" />
+
+            <div class="description-box">
+                <h4>Judah</h4>
+                <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+                <span class="categories"><i class="fa fa-tag"></i>Branding</span>
+            </div>
+
+            <div class="link-box">
+                <a href="http://www.behance.net">Details</a>
+                <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+        </div><!-- modal-03 End -->*@
+
+       
+
+
+    </div> <!-- row End -->
+
+</section> <!-- Portfolio Section End-->
+
+<!-- Contact Section
+================================================== -->
+<section id="contact">
+
+    <div class="row section-head">
+
+        <div class="two columns header-col">
+
+            <h1><span>Get In Touch.</span></h1>
+
+        </div>
+
+        <div class="ten columns">
+
+            <p class="lead">
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+                eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
+                voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+            </p>
+
+        </div>
+
     </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+
+    <div class="row">
+
+        <div class="eight columns">
+
+            <!-- form -->
+            <form action="" method="post" id="contactForm" name="contactForm">
+                <fieldset>
+
+                    <div>
+                        <label for="contactName">Name <span class="required">*</span></label>
+                        <input type="text" value="" size="35" id="contactName" name="contactName">
+                    </div>
+
+                    <div>
+                        <label for="contactEmail">Email <span class="required">*</span></label>
+                        <input type="text" value="" size="35" id="contactEmail" name="contactEmail">
+                    </div>
+
+                    <div>
+                        <label for="contactSubject">Subject</label>
+                        <input type="text" value="" size="35" id="contactSubject" name="contactSubject">
+                    </div>
+
+                    <div>
+                        <label for="contactMessage">Message <span class="required">*</span></label>
+                        <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
+                    </div>
+
+                    <div>
+                        <button class="submit">Submit</button>
+                        <span id="image-loader">
+                            <img alt="" src="images/loader.gif">
+                        </span>
+                    </div>
+
+                </fieldset>
+            </form> <!-- Form End -->
+            <!-- contact-warning -->
+            <div id="message-warning"> Error boy</div>
+            <!-- contact-success -->
+            <div id="message-success">
+                <i class="fa fa-check"></i>Your message was sent, thank you!<br>
+            </div>
+
+        </div>
+
+
+        <aside class="four columns footer-widgets">
+
+            <div class="widget widget_contact">
+
+                <h4>Location and Phone</h4>
+                <p class="address">
+                    Aaron Purtill<br>
+                    Currently Phoenix, AZ<br>
+                    Relocating to Seattle, WA<br>
+                    <span>(480) 489-9438</span>
+                </p>
+
+            </div>
+
+            @*<div class="widget widget_tweets">
+
+                <h4 class="widget-title">Latest Tweets</h4>
+
+                <ul id="twitter">
+                    <li>
+                        <span>
+                            This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+                            Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum
+                            <a href="#">http://t.co/CGIrdxIlI3</a>
+                        </span>
+                        <b><a href="#">2 Days Ago</a></b>
+                    </li>
+                    <li>
+                        <span>
+                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+                            eaque ipsa quae ab illo inventore veritatis et quasi
+                            <a href="#">http://t.co/CGIrdxIlI3</a>
+                        </span>
+                        <b><a href="#">3 Days Ago</a></b>
+                    </li>
+                </ul>
+
+            </div>*@
+
+        </aside>
+
     </div>
-</div>
+
+</section> <!-- Contact Section End-->

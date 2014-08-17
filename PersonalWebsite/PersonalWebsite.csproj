@@ -163,6 +163,7 @@
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="images\ApAvatar.png" />
+    <Content Include="images\coming-soon.jpg" />
     <Content Include="images\favicon.ico" />
     <Content Include="images\header-background.jpg" />
     <Content Include="images\loader.gif" />
@@ -251,6 +252,7 @@
     <Content Include="css\fonts\opensans\OpenSans-SemiboldItalic-webfont.ttf" />
     <Content Include="css\fonts\opensans\OpenSans-SemiboldItalic-webfont.woff" />
     <Content Include="files\APresume.pdf" />
+    <None Include="Properties\PublishProfiles\APwebsite.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\custom\init.js" />
     <Content Include="Scripts\custom\jquery.fittext.js" />
@@ -275,7 +277,9 @@
     <Content Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
-    <Content Include="Views\Web.config" />
+    <Content Include="Views\Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />

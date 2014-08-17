@@ -1,20 +1,15 @@
 ﻿<!DOCTYPE html>
 <html class="no-js" lang="en"> 
-
 <head>
-
     <meta charset="utf-8" />
-    <title>Aaron Purtill's Personal Website</title>
-
-
+    <title>Aaron Purtill's Personal Website</title>    
     <!-- Mobile Meta -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
        
    @*// @Styles.Render("~/Content/css")*@
     @Scripts.Render("~/bundles/modernizr")
 
-    <!-- CSS
-    ================================================== -->
+    <!-- CSS -->
     <link rel="stylesheet" href="css/default.css">
     <link rel="stylesheet" href="css/layout.css">
     <link rel="stylesheet" href="css/media-queries.css">
@@ -23,29 +18,26 @@
     <!--Favicons-->
     <link rel="shortcut icon" href="~/images/favicon.ico">
 </head>
-<body>
-  
-
-
+<body> 
     @Html.Partial("_header")
         @RenderBody()
     @Html.Partial("_footer")
 
-    @*@Scripts.Render("~/bundles/jquery")*@
+    @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
     
        <!-- Java Script
     ================================================== -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
-    <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+    @*<script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>*@
+    @*<script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>*@
 
-    <script src="js/jquery.flexslider.js"></script>
-    <script src="js/waypoints.js"></script>
-    <script src="js/jquery.fittext.js"></script>
-    <script src="js/magnific-popup.js"></script>
-    <script src="js/init.js"></script>
+    <script src="~/Scripts/custom/jquery.flexslider.js"></script>
+    <script src="~/Scripts/custom/waypoints.js"></script>
+    <script src="~/Scripts/custom/jquery.fittext.js"></script>
+    <script src="~/Scripts/custom/magnific-popup.js"></script>
+    <script src="~/Scripts/custom/init.js"></script>   
 </body>
 </html>
 

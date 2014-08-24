@@ -165,7 +165,6 @@
     <Content Include="images\ApAvatar.png" />
     <Content Include="images\coming-soon.jpg" />
     <Content Include="images\favicon.ico" />
-    <Content Include="images\header-background.jpg" />
     <Content Include="images\loader.gif" />
     <Content Include="images\overlay-bg.png" />
     <Content Include="images\overlay-zoom.png" />

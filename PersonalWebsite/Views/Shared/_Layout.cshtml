@@ -1,39 +1,37 @@
 ﻿<!DOCTYPE html>
-<html class="no-js" lang="en"> 
+<html class="no-js" lang="en">
 <head>
     <meta charset="utf-8" />
-    <title>Aaron Purtill's Personal Website</title>    
+    <title>Aaron Purtill's Personal Website</title>
     <!-- Mobile Meta -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-       
-   @*// @Styles.Render("~/Content/css")*@
-    @Scripts.Render("~/bundles/modernizr")
 
-    <!-- CSS -->
+    @*// @Styles.Render("~/Content/css")*@
+    @Scripts.Render("~/bundles/modernizr")
+       
     <link rel="stylesheet" href="css/default.css">
     <link rel="stylesheet" href="css/layout.css">
     <link rel="stylesheet" href="css/media-queries.css">
     <link rel="stylesheet" href="css/magnific-popup.css">
-
-    <!--Favicons-->
+    
     <link rel="shortcut icon" href="~/images/favicon.ico">
 </head>
-<body> 
+<body>
     @Html.Partial("_header")
-        @RenderBody()
+    @RenderBody()
     @Html.Partial("_footer")
 
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
-    
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>  
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
     <script src="~/Scripts/custom/jquery.flexslider.js"></script>
     <script src="~/Scripts/custom/waypoints.js"></script>
     <script src="~/Scripts/custom/jquery.fittext.js"></script>
     <script src="~/Scripts/custom/magnific-popup.js"></script>
-    <script src="~/Scripts/custom/init.js"></script>   
+    <script src="~/Scripts/custom/init.js"></script>
 </body>
 </html>
 
